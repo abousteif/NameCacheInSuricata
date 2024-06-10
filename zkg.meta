@@ -1,0 +1,5 @@
+[package]
+description = v1.0.0 - Enrich suricata_corelight with known namecache package information.
+script_dir = scripts
+tags = suricata namecache
+version=1.0.0
