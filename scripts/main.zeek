@@ -1,6 +1,10 @@
 #Scripts to use when you want to enrich Corelight_suricata log with information from the namecache script
 
-Module Transcontinental
+Module Transcontinental;
+
+type Idx: record {
+    info: addr;
+};
 
 event connection_state_remove(c: connection)
 {
