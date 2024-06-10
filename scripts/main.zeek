@@ -1,6 +1,6 @@
 #Scripts to use when you want to enrich Corelight_suricata log with information from the namecache script
 
-Module Transcontinental;
+module Transcontinental;
 
 type Idx: record {
     info: addr;
